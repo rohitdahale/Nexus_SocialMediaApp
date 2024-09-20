@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1049345175916",
+    "project_id": "nexus-8a7b3",
+    "storage_bucket": "nexus-8a7b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049345175916:android:1809ce235088cd648b8349",
+        "android_client_info": {
+          "package_name": "com.rohit.socialmediaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBi-oKsc5tkis1Lx1RhpYAQLqtJn4h1WUc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
