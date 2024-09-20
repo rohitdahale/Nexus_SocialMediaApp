@@ -1,74 +1,57 @@
-📱 Social Media App
-Welcome to the Social Media App! 🌐 This is a simple and interactive social media platform where users can share posts, view stories, and engage with their friends' content. Built using Kotlin, Firebase Firestore, and Android Jetpack components, this app provides a seamless and intuitive user experience.
+# 📱 SocialMediaApp
 
-📋 Features
-📝 Post Content: Share your thoughts, images, and moments with friends.
-👥 Stories: View and share stories with a horizontal scrolling feature.
-🔍 Search: Quickly search for friends or trending posts.
-📅 Real-time Updates: Get posts and updates in real-time, thanks to Firebase Firestore.
-📊 User Profiles: Each post includes the user's name to give credit to the author.
-📸 Multimedia Support: Upload images, videos, and other content in posts.
-🔔 Notifications: Stay up to date with likes, comments, and messages.
-💬 Chat: Send messages directly to your friends.
-🛠️ Tech Stack
-Language: Kotlin 🇰🇷
-Backend: Firebase Firestore 🔥
-UI: Android Jetpack (ConstraintLayout, RecyclerView) 🧰
-Image Loading: Picasso 🎨
-Authentication: Firebase Auth 🔑
-🚀 Getting Started
-Prerequisites
-📱 Android Studio (latest version)
-🧑‍💻 Firebase account
-🗄️ Firebase Firestore Database
-Installation
-Clone the repo:git clone https://github.com/yourusername/social-media-app.git
-Open in Android Studio:
+SocialMediaApp is a dynamic social media application where users can share posts, interact with stories, and engage with each other through short videos (shorts). The app uses Firebase Firestore for real-time database functionalities.
 
-Open Android Studio and select the project folder.
-Sync the Gradle files to resolve dependencies.
-Set up Firebase:
+## 🚀 Features
 
-Create a project in Firebase and add your Android app.
-Download the google-services.json file and place it in the app directory.
-Enable Firestore in the Firebase console.
-Run the app:
+- 🔐 **Login & Signup**: Secure user authentication
+- 🏠 **Home Feed**: See posts from people you follow
+- ✏️ **Create Post**: Share posts with images and text
+- 👥 **Stories & Shorts**: Watch and interact with stories and short videos
+- 🙍‍♂️ **Profile Page**: Manage your profile and posts
 
-Build and run the app on an emulator or physical device.
-🔧 Configuration
-In order to connect with Firebase, make sure to configure the following files:
+## 📸 Screenshots
 
-Firestore collections:
-POST: Stores posts, including user details and post content.
-SHORTS: Stores stories.
-Firestore Rules:
-Ensure your Firestore rules allow read/write access as needed for the development phase.
-📂 Project Structure
-├── adapters/            # RecyclerView adapters
-├── fragments/           # App fragments (Home, Explore, Profile, etc.)
-├── model/               # Data models (Post, User, etc.)
-├── utils/               # Utility classes (Constants like POST, SHORTS)
-├── res/                 # Layouts, drawables, values
-├── MainActivity.kt      # Main activity file
-└── Firebase setup files
-📸 Screenshots
-Here are some screenshots of the app in action:
+### 1. 🔐 Login & Signup Page
 
-1. 🔐 Login & Signup Page
-Login	Signup
-2. 🏠 Home Page
-Home Feed	Add Post
-3. 👥 Stories & Shorts
-Stories Feed	Shorts View
-4. 🙍‍♂️ Profile Page
-Profile Page
-🤝 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Feel free to fork this project and make a pull request! 🚀
+| Login | Signup |
+| ----- | ------ |
+| ![Login](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/login.png) | ![Signup](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/signup.png) |
 
-Fork the project 🍴
-Create your feature branch (git checkout -b feature/AmazingFeature) 🌟
-Commit your changes (git commit -m 'Add some AmazingFeature') 📝
-Push to the branch (git push origin feature/AmazingFeature) 🚀
-Open a pull request 🎉
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
+### 2. 🏠 Home Page
+
+| Home Feed | Add Post |
+| --------- | -------- |
+| ![Home](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/home_feed.png) | ![Add Post](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/add_post.png) |
+
+### 3. 👥 Stories & Shorts
+
+| Stories Feed | Shorts View |
+| ------------ | ----------- |
+| ![Stories](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/stories_feed.png) | ![Shorts](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/shorts_view.png) |
+
+### 4. 🙍‍♂️ Profile Page
+
+| Profile Page |
+| ------------ |
+| ![Profile](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/profile_page.png) |
+
+## 🛠️ Technologies Used
+
+- **Kotlin**: For building the Android app
+- **Firebase Firestore**: For storing posts and user data
+- **Firebase Authentication**: For user authentication
+- **RecyclerView**: For displaying stories and posts
+- **Glide/Picasso**: For loading images efficiently
+
+## 📂 Folder Structure
+
+```plaintext
+├── adapters/               # RecyclerView Adapters for posts and stories
+├── fragments/              # Home, Profile, and Shorts fragments
+├── models/                 # Data models (Post, User, etc.)
+├── utils/                  # Utility classes and constants (e.g., Firestore paths)
+├── res/
+│   ├── drawable/           # App icons and images
+│   ├── layout/             # XML layout files for activities and fragments
+│   └── values/             # Colors, strings, and styles
