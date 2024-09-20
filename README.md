@@ -16,25 +16,20 @@ SocialMediaApp is a dynamic social media application where users can share posts
 
 | Login | Signup |
 | ----- | ------ |
-| ![Login](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/login.png) | ![Signup](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/signup.png) |
+| ![Login](screenshots/Login.png) | ![Signup](screenshots/signup.png) |
 
 ### 2. 🏠 Home Page
 
-| Home Feed | Add Post |
+| Home Feed | Upload Short |
 | --------- | -------- |
-| ![Home](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/home_feed.png) | ![Add Post](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/add_post.png) |
+| ![Home](screenshots/home.png) | ![Add Post](screenshots/uploadShort.png) |
 
-### 3. 👥 Stories & Shorts
+### 3. Profile 👥  & Shorts
 
-| Stories Feed | Shorts View |
+| Profile | Shorts View |
 | ------------ | ----------- |
-| ![Stories](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/stories_feed.png) | ![Shorts](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/shorts_view.png) |
+| ![Profile](screenshots/dashboard.png) | ![Shorts](screenshots/shorts.png) |
 
-### 4. 🙍‍♂️ Profile Page
-
-| Profile Page |
-| ------------ |
-| ![Profile](https://raw.githubusercontent.com/your-username/repository-name/main/screenshots/profile_page.png) |
 
 ## 🛠️ Technologies Used
 
